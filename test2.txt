@@ -1,0 +1,15 @@
+left
+right 
+   PLACE 0 north
+MOVE
+REPORT
+	PLACE 0 -5 north
+LEFT
+REPORT
+PLACE 1 2.5 EAST
+move
+REPORT
+
+PLACE 1 2 EAST
+move
+REPORT
