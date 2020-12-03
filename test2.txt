@@ -11,5 +11,32 @@ move
 REPORT
 
 PLACE 1 2 EAST
+LEFT
+LEFT
+move
+move
+move
+REPORT
+
+PLACE 1 2 WEST
+LEFT
+LEFT
+move
+move
+REPORT
+
+PLACE 1 2 south
+
+move
+REPORT
+LEFT
+move
+REPORT
+
+LEFT
+move
+REPORT
+
+LEFT
 move
 REPORT
