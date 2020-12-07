@@ -2,13 +2,13 @@ class Robot:
     def __init__(self, n, m):
         self.n = n
         self.m = m
-        self.x = -1
-        self.y = -1
-        self.direction = ''
+        self.x = 0
+        self.y = 0
+        self.direction = 'NORTH'
         self.directions = ('WEST', 'NORTH', 'EAST', 'SOUTH')
 
     def isValidPosition(self, x, y):
-        return ( 0 <= x <= self.n) and ( 0< y <= self.m)
+        return (0 <= x <= self.n) and (0< y <= self.m)
 
     def action(self, command):
         if command[0] == 'MOVE':
